@@ -15,3 +15,8 @@ Two additional scripts containin non-rigorous computations are provided:
 - script_pitchfork_numerics.m provides faster but not guaranteed approximations of the rate function at 0;
 - script_pitchfork_asymptoticLE.m approximates the asymptotic Lyapunov exponent and can be used to reproduce Figure 2.
 
+## Toy model of shear-induces chaos
+
+The folder "Shear" contains the codes related to the theorems discussed in Section 5.2 of the paper:
+- The proof of Theorem 5.13 can be reproduced by running script_shear_single.m (which will run whithout Intlab, but then the result is of course not guaranteed);
+- The proof illustrated in Figure 4 can be reproduced by running script_shear_all.m (which will run whithout Intlab, but then the result is of course not guaranteed).
