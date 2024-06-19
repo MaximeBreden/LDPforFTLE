@@ -1,7 +1,7 @@
 # Large Deviation Principle for Finite Time Lyapunov Exponents.
 
 This repository contains the Matlab codes used for the paper ["Detecting random bifurcations via rigorous enclosures of large
-deviations rate functions"], **need to add link to the paper on ArXiv** by A. Blumenthal, M. Breden, M. Engel and A. Neamtu. The proofs make crucial usage of
+deviations rate functions"] **need to add link to the paper on ArXiv**, by A. Blumenthal, M. Breden, M. Engel and A. Neamtu. The proofs make crucial usage of
 interval arithmetic via the Intlab toolbox (http://www.ti3.tu-harburg.de/intlab/).
 
 ## Pitchfork bifurcation
@@ -10,6 +10,7 @@ The folder "Pitchfork" contains the codes related to the theorems discussed in S
 - The proof of Theorem 5.5 can be reproduced by running script_pitchfork_single.m (which requires Intlab);
 - The proof illustrated in Figure 1 can be reproduced by running script_pitchfork_all.m (which requires Intlab);
 - The proof of Theorem 5.7 can be reproduced by running script_pitchfork_minimum.m (which requires Intlab).
+  
 Two additional scripts containin non-rigorous computations are provided:
 - script_pitchfork_numerics.m provides faster but not guaranteed approximations of the rate function at 0;
 - script_pitchfork_asymptoticLE.m approximates the asymptotic Lyapunov exponent and can be used to reproduce Figure 2.
