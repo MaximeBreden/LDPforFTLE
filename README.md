@@ -11,7 +11,7 @@ The folder "Pitchfork" contains the codes related to the theorems discussed in S
 - The proof illustrated in Figure 1 can be reproduced by running script_pitchfork_all.m (which requires Intlab);
 - The proof of Theorem 5.7 can be reproduced by running script_pitchfork_minimum.m (which requires Intlab).
   
-Two additional scripts containin non-rigorous computations are provided:
+Two additional scripts containing non-rigorous computations are provided:
 - script_pitchfork_numerics.m provides faster but not guaranteed approximations of the rate function at 0;
 - script_pitchfork_asymptoticLE.m approximates the asymptotic Lyapunov exponent and can be used to reproduce Figure 2.
 
