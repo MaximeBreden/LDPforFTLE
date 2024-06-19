@@ -2,7 +2,7 @@
 
 This repository contains the Matlab codes used for the paper *Detecting random bifurcations via rigorous enclosures of large
 deviations rate functions* **need to add link to the paper on ArXiv**, by A. Blumenthal, M. Breden, M. Engel and A. Neamtu. The proofs make crucial usage of
-interval arithmetic via the Intlab toolbox (http://www.ti3.tu-harburg.de/intlab/).
+interval arithmetic via the [Intlab toolbox](http://www.ti3.tu-harburg.de/intlab/).
 
 ## Pitchfork bifurcation
 
