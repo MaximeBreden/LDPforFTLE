@@ -113,8 +113,7 @@ p(2) = 1/2*p_rad;
 lambda_coeffs = X_coeffs(2*N+2,:);
 lpap = lambda_coeffs + alpha*p;
 Z1_tail = 1/(2*sigma^2) * ( 1/(N+2)^2 * (abs(b)*(N+2)+norm_nueta(lpap,nu,eta)) + ...
-                            1/(N+1)^2 * abs(b) * ((N+1)/2+norm_nueta(p,nu,eta)/4) / nu + ...
-                            1/(N+3)^2 * abs(b) * ((N+3)/2+norm_nueta(p,nu,eta)/4) * nu );
+                            1/(2*(N+1)^2) * abs(b) * (2*(N+2)+norm_nueta(p,nu,eta)) * nu);
 
 disp(['Z1_tail = ',num2str(i2f(Z1_tail))])
       

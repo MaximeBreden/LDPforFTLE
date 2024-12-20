@@ -9,7 +9,7 @@ format short
 %%% In order to get guaranteed results, start Intlab in your current
 %%% directory, and put the use_Intlab variable below to true.
 
-use_Intlab = false;
+use_Intlab = true;
 
 %% Initialization
 
@@ -24,9 +24,6 @@ option = 'rate_function';
 alpha = '1';
 sigma = '1';
 
-nb = 50;
-tab_b = logspace(log10(2.1-2),log10(20-2),nb)+2;
-
 N = 20; % number of Fourier modes used
 K = 10; % number of Chebyshev modes used
 
@@ -35,6 +32,8 @@ nu = '1.0';
 eta = '1.01';
 
 if strcmp(option,'rate_function')
+    nb = 50; % number of points in b
+    tab_b = logspace(log10(2.1-2), log10(20-2), nb) + 2;
     tab_p_mid = 1./(tab_b-2).^2;
     p_rad = 5;
     p_rad_center = 0.1;
@@ -46,6 +45,8 @@ if strcmp(option,'rate_function')
         tab_iI0 = intval(tab_I0);
     end
 elseif strcmp(option,'asymptotic_variance')
+    nb = 50; % number of points in b
+    tab_b = linspace(0, 20, nb);
     tab_p_mid = zeros(1,nb);
     p_rad = 2^-4;
     % We study the MLE for p in [-p_rad,+p_rad]
@@ -229,8 +230,11 @@ if strcmp(option,'rate_function')
     end
     xlabel('$b$','Interpreter','Latex')
     ylabel('$\mathcal{I}_{b}(0)$','Interpreter','Latex')
+    xticks([2 5 10 15 20])
+    xticklabels({'2','5','10','15','20'})
     set(gca,'FontSize',15) 
     axis tight
+    xlim([2 20])
 
 elseif strcmp(option,'asymptotic_variance')
     figure
