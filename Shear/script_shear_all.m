@@ -9,7 +9,7 @@ format short
 %%% In order to get guaranteed results, start Intlab in your current
 %%% directory, and put the use_Intlab variable below to true.
 
-use_Intlab = true;
+use_Intlab = false;
 
 %% Initialization
 
