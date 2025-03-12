@@ -1,7 +1,7 @@
 # Large Deviation Principle for Finite Time Lyapunov Exponents.
 
 This repository contains the Matlab codes used for the paper [*Detecting random bifurcations via rigorous enclosures of large
-deviations rate functions*](https://arxiv.org/abs/2408.12556), by Alexandra Blessing (Neamtu), Alex Blumenthal, Maxime Breden and Maximilian Engel. The proofs make crucial usage of
+deviations rate functions*](https://arxiv.org/abs/2408.12556), by Alexandra Blessing (Neamtu), Alex Blumenthal, Maxime Breden and Maximilian Engel. The proofs make usage of
 interval arithmetic via the [Intlab toolbox](http://www.ti3.tu-harburg.de/intlab/).
 
 ## Pitchfork bifurcation
