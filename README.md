@@ -18,5 +18,5 @@ Two additional scripts containing non-rigorous computations are provided:
 ## Toy model of shear-induces chaos
 
 The folder "Shear" contains the codes related to the theorems discussed in Section 5.2 of the paper:
-- The proof of Theorem 5.13 can be reproduced by running script_shear_single.m (which will run whithout Intlab, but then the result is of course not guaranteed);
+- The proof of Theorem 5.14 can be reproduced by running script_shear_single.m (which will run whithout Intlab, but then the result is of course not guaranteed);
 - The proof illustrated in Figure 4 can be reproduced by running script_shear_all.m (which will run whithout Intlab, but then the result is of course not guaranteed).
